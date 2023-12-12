@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "img": "../assets/img/icon_html.png"
+  },
+  {
+    "id": 2,
+    "name": "CSS",
+    "img": "../assets/img/icon_css.png"
+  },
+  {
+    "id": 3,
+    "name": "Javascript",
+    "img": "../assets/img/icon_javascript.png"
+  },
+  {
+    "id": 4,
+    "name": "PHP",
+    "img": "../assets/img/icon_php.png"
+  },
+  {
+    "id": 5,
+    "name": "MySql",
+    "img": "../assets/img/icon_mysql.png"
+  }
+]
