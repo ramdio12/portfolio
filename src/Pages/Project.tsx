@@ -4,7 +4,17 @@ import { projects as ProjectItem } from "../data/projects";
 const Project = () => {
   const { id }: any = useParams();
   const project = ProjectItem[id];
-  const { name, img, tech, description, subname, note, github, demo } = project;
+  const {
+    name,
+    img,
+    tech,
+    description,
+    subname,
+    note,
+    github,
+    demo,
+    video_demo,
+  } = project;
 
   return (
     <div className=" mt-28 w-full">
@@ -31,7 +41,7 @@ const Project = () => {
           </p>
         </div>
 
-        <div className="mx-auto py-4 flex gap-4 items-center justify-center">
+        <div className="mx-auto py-4 flex flex-wrap gap-4 items-center justify-center">
           <a
             href={github}
             target="_blank"
@@ -44,6 +54,15 @@ const Project = () => {
             className=" bg-green-500 text-white text-lg px-4 py-1 rounded-md">
             Demo
           </a>
+
+          {video_demo && (
+            <a
+              href={video_demo}
+              target="_blank"
+              className=" bg-blue-700 text-white text-lg px-4 py-1 rounded-md">
+              Video demo for AlgoNum Guessing Game
+            </a>
+          )}
         </div>
       </div>
     </div>
