@@ -10,8 +10,8 @@ export const projects = [
         "subname":"Website Clone",
         "img":project_1,
         "tech":"React,Typescript,CSS",
-        "description":"This is a cloning website from a company. Made with several functional components with the help of react and typescript.",
-        "note":"Some of the content(image) changed.",
+        "description":"This is a clone from a company's website. Made with several functional components with the help of react and typescript.",
+        "note":"Some of the contents were changed and removed.",
         "github":"https://github.com/ramdio12/website_clone",
         "demo":"https://websiteclone.vercel.app/"
     },{
@@ -20,7 +20,7 @@ export const projects = [
         "subname":"A Number guessing game with Algorand BlockChain",
         "img":project_2,
         "tech": "PyTeal, Algorand Smart Contract, React Js, CSS",
-        "description":"This is a project I made during my internship at fligno software philippines, Inc.. AlgoNum is a basic number guessing game with Algorand blockchain deployed on tesnet. The mechanics of the game is that you need to guess the number in 6 times (5+1 for mercy bonus). The game will end once you guess it right or when the number of tries runs out. Every time you play, you will be spending at least 0.001 ALGO",
+        "description":"This is a project I made during my internship. AlgoNum is a basic number guessing game with Algorand blockchain deployed on tesnet. The mechanics of the game is that you need to guess the number in 6 times (5+1 for mercy bonus). The game will end once you guess it right or when the number of tries runs out. Every time you play, you will be spending at least 0.001 ALGO",
         "note":"To play this you need a pera wallet app installed on the mobile phone . Go to Settings > Developer Settings > Node Settings > Node Settings and choose testnet. Go to Algorand dispenser to fund your account. You can also watch the video demo.",
         "github":"https://github.com/ramdio12/AlgoNum_Guessing_Game",
         "demo":"https://algo-num-guessing-game.vercel.app/",
