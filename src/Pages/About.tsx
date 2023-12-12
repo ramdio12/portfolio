@@ -30,14 +30,14 @@ const About = () => {
           whileInView={{ translateX: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
-          className="mt-6 flex flex-col items-start pl-4">
+          className="mt-6 flex flex-col items-start pl-2">
           <h3 className="text-4xl font-bold text-headingColor">Experiences</h3>
           <div className="flex flex-col items-start">
             <div className="flex flex-col items-start mt-4">
-              <h3 className="text-xl md:text-2xl whitespace-nowrap font-semibold text-headingColor">
+              <h3 className="text-xl md:text-2xl font-semibold text-headingColor whitespace-break-spaces">
                 Bachelor of Science in Information Technology
               </h3>
-              <h4 className="font-medium">
+              <h4 className="font-medium whitespace-pre">
                 University of Science and Technology of Southern Philippines
               </h4>
               <p>June 2016 - September 2020</p>

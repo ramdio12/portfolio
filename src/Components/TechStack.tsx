@@ -12,7 +12,7 @@ const TechStack = ({ name, img }: iconProps) => {
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className="w-40 h-40 text-center">
+      className="w-36 h-36 text-center">
       <img className="w-full h-full" src={img} alt={name} />
       <p className="text-2xl mb-4">{name}</p>
     </motion.div>

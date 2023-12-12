@@ -67,7 +67,7 @@ const Contact = () => {
 
       <div className="md:flex items-center justify-center">
         <div className=" basis-1/2">
-          <div className="text-left w-5/6 md:w-4/5 mx-auto mb-8  pl-12">
+          <div className="text-left md:w-4/5 mx-auto mb-8 px-4">
             <h1 className=" text-2xl mb-12">
               I always wanted to be part of an innovative team where I can grow
               professionally. You can contact me here:
