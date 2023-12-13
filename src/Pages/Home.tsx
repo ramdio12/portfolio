@@ -26,6 +26,7 @@ const Home = () => {
 
           <p className="text-white text-2xl w-3/4">
             An aspiring IT professional with a passion of learning and creating
+            websites.
           </p>
 
           <div className="text-white flex gap-x-6 mt-4">
