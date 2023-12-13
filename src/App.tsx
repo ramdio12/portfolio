@@ -5,21 +5,24 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Project from "./Pages/Project";
 import Contact from "./Pages/Contact";
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/project/:id" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <HelmetProvider>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/project/:id" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </HelmetProvider>
     </>
   );
 }

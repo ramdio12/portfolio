@@ -7,10 +7,12 @@ import Techstacks from "./Techstacks";
 import { motion } from "framer-motion";
 import About from "./About";
 import { Link } from "react-router-dom";
+import BrowserTitle from "../Components/BrowserTitle";
 
 const Home = () => {
   return (
     <>
+      <BrowserTitle name="Home" />
       <section className="bg-blue-900 h-screen w-full text-center flex items-center justify-center">
         <div className="flex flex-col items-center">
           <motion.h1

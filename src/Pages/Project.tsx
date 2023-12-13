@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { projects as ProjectItem } from "../data/projects";
+import BrowserTitle from "../Components/BrowserTitle";
 
 const Project = () => {
   const { id }: any = useParams();
@@ -18,6 +19,7 @@ const Project = () => {
 
   return (
     <div className=" mt-28 w-full">
+      <BrowserTitle name={`Project - ${name}`} />
       <div className=" pb-8">
         <div className=" w-1/2 mx-auto">
           <img src={img} alt={name} className="w-full" />

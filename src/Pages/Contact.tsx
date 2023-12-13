@@ -8,6 +8,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
+import BrowserTitle from "../Components/BrowserTitle";
 
 const Contact = () => {
   const [inputs, setInputs] = useState({});
@@ -61,6 +62,7 @@ const Contact = () => {
 
   return (
     <div className="w-full text-center  mt-24">
+      <BrowserTitle name="Contact" />
       {/* <h1 className="text-4xl font-semibold pb-4 text-headingColor">
         Contact Me
       </h1> */}
@@ -69,8 +71,9 @@ const Contact = () => {
         <div className=" basis-1/2">
           <div className="text-left md:w-4/5 mx-auto mb-8 px-4">
             <h1 className=" text-2xl mb-12">
-              I always wanted to be part of an innovative team where I can grow
-              professionally. You can contact me here:
+              I have always aspired to be a part of an innovative team where I
+              can foster professional growth. You can reach me at the following
+              contact information:
             </h1>
             <h2 className="text-2xl  py-2 whitespace-nowrap">
               <FontAwesomeIcon icon={faEnvelope} className=" mr-4" />
