@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faDownload,
   faEnvelope,
   faHandPointDown,
   faHandPointRight,
@@ -79,10 +80,19 @@ const Contact = () => {
               <FontAwesomeIcon icon={faEnvelope} className=" mr-4" />
               luib.diomar@gmail.com
             </h2>
+
             <h2 className="text-2xl ">
               <FontAwesomeIcon icon={faPhone} className=" mr-4" />
               0975-424-4225
             </h2>
+
+            <a
+              className="flex gap-3 text-2xl pt-2 items-center  w-72"
+              href="../resume/diomar_luib_resume.pdf"
+              download>
+              <FontAwesomeIcon icon={faDownload} />
+              <span>Download my Resume</span>
+            </a>
           </div>
 
           <h2 className="text-2xl py-4 mr-4 flex items-center justify-center gap-2 text-center ">
