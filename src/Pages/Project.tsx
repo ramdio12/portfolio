@@ -60,7 +60,7 @@ const Project = () => {
               href={video_demo}
               target="_blank"
               className=" bg-blue-700 text-white text-lg px-4 py-1 rounded-md">
-              Video demo for AlgoNum Guessing Game
+              Video demo for {name}
             </a>
           )}
         </div>
