@@ -34,7 +34,7 @@ export const projects = [
         "tech": "React Typescript,Tailwind CSS,PHP,MySql,Axios",
         "description":"This web app I created are for the food enthusiasts or people who wanted to share their recipes online and also for those who wanted to learn how to cook. I think the distinction of this web app from the other recipe website is that it gives everyone an opportunity to share or learn about making dishes (exchanging ideas in other terms ) . Aside from creating recipes, the users can also  download or export the other user's recipes: from web to PDF",
         "note":"I have not subscribed to premium on 000webhost yet, only delete function is unavailable. So I replace it with a function where a user can download or save a recipe in PDF",
-        "github":"https://github.com/ramdio12/website_clone",
-        "demo":"https://websiteclone.vercel.app/"
+        "github":"https://github.com/ramdio12/cookbook_webapp.git",
+        "demo":"https://mycookbook.vercel.app/"
     }
 ]
