@@ -73,8 +73,8 @@ const Contact = () => {
           <div className="text-left md:w-4/5 mx-auto mb-8 px-4">
             <h1 className=" text-2xl mb-12">
               I have always aspired to be a part of an innovative team where I
-              can foster professional growth. You can reach me at the following
-              contact information:
+              can foster professional and even personal growth. You can reach me
+              at the following contact information:
             </h1>
             <h2 className="text-2xl  py-2 whitespace-nowrap">
               <FontAwesomeIcon icon={faEnvelope} className=" mr-4" />
