@@ -19,7 +19,11 @@ function CustomLink({ to, children, props }: any) {
   const isActive = useMatch({ path: linkPath.pathname, end: true });
 
   return (
-    <Link {...props} to={to} style={{ color: isActive ? "#facc15" : "" }}>
+    <Link
+      {...props}
+      to={to}
+      style={{ color: isActive ? "#facc15" : "" }}
+      className="text-2xl 2xl:text-3xl ">
       {children}
     </Link>
   );

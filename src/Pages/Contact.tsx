@@ -62,7 +62,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full text-center  mt-24">
+    <div className="w-full text-center min-h-screen  mt-24">
       <BrowserTitle name="Contact" />
       {/* <h1 className="text-4xl font-semibold pb-4 text-headingColor">
         Contact Me

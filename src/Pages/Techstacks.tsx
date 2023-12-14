@@ -4,10 +4,12 @@ import { techstacks } from "../data/techstacks";
 
 const Techstacks = () => {
   return (
-    <div className="text-center  bg-neutral-300 mt-16">
+    <div className="text-center  bg-neutral-300 mt-16 min-h-screen flex items-center justify-center flex-col">
       <div className="mb-20">
-        <h2 className="text-6xl font-bold  mb-2 text-headingColor">Skills</h2>
-        <p className="text-xl ">
+        <h2 className="text-6xl 2xl:text-7xl font-bold  mb-2 text-headingColor">
+          Skills
+        </h2>
+        <p className="text-xl 2xl:text-2xl">
           These are the current teckstacks that I am working and learning
         </p>
       </div>

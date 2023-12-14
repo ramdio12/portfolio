@@ -10,7 +10,8 @@ export default {
         headingColor: '#3e497a'
       },
       spacing: {
-        cardHeight: "21rem"
+        cardHeight: "21rem",
+        wide: "30rem",
       }
     },
 

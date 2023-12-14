@@ -24,7 +24,8 @@ export const projects = [
         "note":"To play this you need a pera wallet app installed on the mobile phone . Go to Settings > Developer Settings > Node Settings > Node Settings and choose testnet. Go to Algorand dispenser to fund your account. You can also watch the video demo.",
         "github":"https://github.com/ramdio12/AlgoNum_Guessing_Game",
         "demo":"https://algo-num-guessing-game.vercel.app/",
-        "video_demo": "https://drive.google.com/drive/folders/1XQrcQ8OUc7AFSRpUcvwnSEfJecx7543b"
+        "video_demo": "https://drive.google.com/drive/folders/1XQrcQ8OUc7AFSRpUcvwnSEfJecx7543b",
+        "backend":"https://github.com/ramdio12/Algonum_Smart_Contract"
     }
     ,{
         "id":3,

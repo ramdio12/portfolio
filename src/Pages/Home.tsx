@@ -20,11 +20,11 @@ const Home = () => {
             whileInView={{ translateY: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="text-amber-400 text-6xl md:text-8xl mb-4 font-bold">
+            className="text-amber-400 text-6xl md:text-8xl 2xl:text-9xl mb-4 font-bold">
             Hi, I am Diomar
           </motion.h1>
 
-          <p className="text-white text-2xl w-3/4">
+          <p className="text-white text-2xl 2xl:text-5xl w-3/4">
             An aspiring IT professional with a passion of learning and creating
             websites.
           </p>
@@ -33,18 +33,18 @@ const Home = () => {
             <a
               href="https://www.linkedin.com/in/i-am-diomar"
               target="_blank"
-              className="text-5xl hover:scale-110 duration-75 ease-in-out">
+              className="text-5xl 2xl:text-6xl hover:scale-110 duration-75 ease-in-out">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <Link
               to="/contact"
-              className="text-5xl hover:scale-110 duration-75 ease-in-out">
+              className="text-5xl 2xl:text-6xl hover:scale-110 duration-75 ease-in-out">
               <FontAwesomeIcon icon={faEnvelope} />
             </Link>
             <a
               href="https://github.com/ramdio12"
               target="_blank"
-              className="text-5xl hover:scale-110 duration-75 ease-in-out">
+              className="text-5xl 2xl:text-6xl hover:scale-110 duration-75 ease-in-out">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>

@@ -4,11 +4,15 @@ import { projects } from "../data/projects";
 
 const Projects = () => {
   return (
-    <section className="w-full min-h-max flex items-center justify-center flex-col pt-28 ">
+    <section className="w-full min-h-screen flex items-center justify-center flex-col pt-28 ">
       <BrowserTitle name="Projects" />
       <div className="w-full text-center">
-        <h1 className="text-6xl mb-4 text-headingColor">My Projects</h1>
-        <p className="text-2xl">These are my current Projects</p>
+        <h1 className="text-6xl 2xl:text-8xl mb-4 text-headingColor">
+          My Projects
+        </h1>
+        <p className="text-2xl 2xl:text-4xl 2xl:pb-12">
+          These are my current Projects
+        </p>
       </div>
       <div className="flex flex-wrap mt-4 mb-10 items-center justify-center">
         {projects.map((project) => (
