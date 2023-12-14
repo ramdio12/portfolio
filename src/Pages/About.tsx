@@ -9,8 +9,8 @@ const About = () => {
       <div className="basis-1/2  flex items-center justify-center">
         <div className="m-auto w-2/4 py-8">
           <motion.img
-            initial={{ scale: 0, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
+            initial={{ scale: 0, opacity: 0, rotate: 180 }}
+            whileInView={{ scale: 1, opacity: 1, rotate: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
             className=" shadow-lg object-center w-full"
@@ -19,7 +19,12 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="basis-1/2  flex flex-col py-4 ">
+      <motion.div
+        initial={{ translateX: 200, opacity: 0 }}
+        whileInView={{ translateX: 0, opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+        className="basis-1/2  flex flex-col py-4 ">
         <h2 className="text-6xl 2xl:text-8xl font-bold text-headingColor ">
           About Me
         </h2>
@@ -27,12 +32,7 @@ const About = () => {
           Feel free to see my experiences and also my projects
         </p>
 
-        <motion.div
-          initial={{ translateX: 200, opacity: 0 }}
-          whileInView={{ translateX: 0, opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="mt-6 flex flex-col items-start pl-2">
+        <div className="mt-6 flex flex-col items-start pl-2">
           <h3 className="text-4xl 2xl:text-5xl font-bold text-headingColor">
             Experiences
           </h3>
@@ -65,8 +65,8 @@ const About = () => {
               <p className="2xl:text-xl">March 2023 - June 2023</p>
             </div>
           </div>
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
     </section>
   );
 };

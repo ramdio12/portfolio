@@ -1,12 +1,10 @@
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Techstacks from "./Techstacks";
 import { motion } from "framer-motion";
 import About from "./About";
-import { Link } from "react-router-dom";
 import BrowserTitle from "../Components/BrowserTitle";
 
 const Home = () => {
@@ -30,23 +28,17 @@ const Home = () => {
           </p>
 
           <div className="text-white flex gap-x-6 mt-4">
-            <a
+            <CustomLink
               href="https://www.linkedin.com/in/i-am-diomar"
-              target="_blank"
-              className="text-5xl 2xl:text-6xl hover:scale-110 duration-75 ease-in-out">
+              target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <Link
-              to="/contact"
-              className="text-5xl 2xl:text-6xl hover:scale-110 duration-75 ease-in-out">
+            </CustomLink>
+            <CustomLink href="/contact">
               <FontAwesomeIcon icon={faEnvelope} />
-            </Link>
-            <a
-              href="https://github.com/ramdio12"
-              target="_blank"
-              className="text-5xl 2xl:text-6xl hover:scale-110 duration-75 ease-in-out">
+            </CustomLink>
+            <CustomLink target="_blank" href="https://github.com/ramdio12">
               <FontAwesomeIcon icon={faGithub} />
-            </a>
+            </CustomLink>
           </div>
         </div>
       </section>
@@ -57,3 +49,19 @@ const Home = () => {
 };
 
 export default Home;
+function CustomLink({ href, children, props, target }: any) {
+  return (
+    <motion.a
+      initial={{ translateX: 100, opacity: 0 }}
+      whileInView={{ translateX: 0, opacity: 1 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+      whileHover={{ scale: 1.2, transition: 1 }}
+      {...props}
+      href={href}
+      target={target}
+      className="text-5xl 2xl:text-6xl">
+      {children}
+    </motion.a>
+  );
+}
