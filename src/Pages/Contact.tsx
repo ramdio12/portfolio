@@ -1,6 +1,9 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
+import BrowserTitle from "../Components/BrowserTitle";
+import resume from "../resume/diomar_luib_resume.pdf";
 import {
   faDownload,
   faEnvelope,
@@ -8,8 +11,6 @@ import {
   faHandPointRight,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { motion } from "framer-motion";
-import BrowserTitle from "../Components/BrowserTitle";
 
 const Contact = () => {
   const [inputs, setInputs] = useState({});
@@ -85,11 +86,10 @@ const Contact = () => {
               <FontAwesomeIcon icon={faPhone} className=" mr-4" />
               0975-424-4225
             </h2>
-
             <a
               className="flex gap-3 text-2xl pt-2 items-center  w-72"
-              href="../resume/diomar_luib_resume.pdf"
-              download>
+              href={resume}
+              download="DMLuib_resume">
               <FontAwesomeIcon icon={faDownload} />
               <span>Download my Resume</span>
             </a>
