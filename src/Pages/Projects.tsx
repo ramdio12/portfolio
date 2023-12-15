@@ -7,7 +7,7 @@ const Projects = () => {
     <section className="w-full min-h-screen flex items-center justify-center flex-col pt-28 md:pt-12 ">
       <BrowserTitle name="Projects" />
       <div className="w-full text-center 2xl:pb-12">
-        <h1 className="text-6xl 2xl:text-8xl mb-4 text-headingColor">
+        <h1 className="text-6xl 2xl:text-8xl mb-4 mt-12 text-headingColor">
           My Projects
         </h1>
         <p className="text-2xl 2xl:text-4xl ">These are my current Projects</p>
