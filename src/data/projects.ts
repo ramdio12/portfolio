@@ -1,6 +1,7 @@
 import project_1 from "../assets/img/project_website_clone_project.png";
 import project_2 from "../assets/img/website_clone2.jpg";
 import project_3 from "../assets/img/cookbook2.jpg";
+import project_4 from "../assets/img/foodiebruv2_1280x720.png";
 
 
 export const projects = [
@@ -37,5 +38,16 @@ export const projects = [
         "note":" You need to create an account first and log in before entering the main page. I have not subscribed to premium on 000webhost yet, only delete function is unavailable. So I replace it with a function where a user can download or save a recipe in PDF",
         "github":"https://github.com/ramdio12/cookbook",
         "demo":"https://mycookbook.vercel.app/"
+    }
+    ,{
+        "id":4,
+        "name":"FoodieBruv",
+        "subname":"Landing Page Front End with react-scroll",
+        "img":project_4,
+        "tech": "React JS,Tailwind CSS",
+        "description":"A front end landing page for a restaurant website.It does not only display food menus, but also the contact info of the resto as well. A visitor can navigate from top to bottom with navbar menus or the scroll to top button when going to the home or hero section.",
+        "note":" You can freely browse on my website, just click the demo",
+        "github":"https://github.com/ramdio12/restaurant_website",
+        "demo":"https://foodiebruv.vercel.app/"
     }
 ]
