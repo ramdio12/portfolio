@@ -33,7 +33,7 @@ const Project = () => {
 
       <div className="text-center w-5/6 md:w-3/4 mx-auto">
         <div className="mb-6">
-          <p className="text-xl">TechStacks : {tech}</p>
+          <p className="text-xl">Tools : {tech}</p>
         </div>
 
         <div>
