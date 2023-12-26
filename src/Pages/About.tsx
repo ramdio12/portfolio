@@ -29,7 +29,9 @@ const About = () => {
           About Me
         </h2>
         <p className="text-lg 2xl:text-2xl md:px-4">
-          Feel free to see my experiences and also my projects
+          I am an IT graduate. I am passionate about improving my coding skills
+          & developing applications & websites. Working for myself to improve my
+          skills. I also love troubleshooting PC as well.
         </p>
 
         <div className="mt-6 flex flex-col items-start pl-2">
@@ -38,7 +40,7 @@ const About = () => {
           </h3>
           <div className="flex flex-col items-start">
             <div className="flex flex-col items-start mt-4">
-              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-semibold text-headingColor whitespace-break-spaces">
+              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor whitespace-break-spaces">
                 Bachelor of Science in Information Technology
               </h3>
               <h4 className="font-medium 2xl:text-xl whitespace-pre">
@@ -47,7 +49,7 @@ const About = () => {
               <p className="2xl:text-xl">June 2016 - September 2020</p>
             </div>
             <div className="flex flex-col items-start mt-4">
-              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-semibold text-headingColor">
+              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor">
                 Office Clerk
               </h3>
               <h4 className=" font-medium 2xl:text-xl">
@@ -56,7 +58,7 @@ const About = () => {
               <p className="2xl:text-xl">June 2021 - April 2022</p>
             </div>
             <div className="flex flex-col items-start mt-4">
-              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-semibold text-headingColor">
+              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor">
                 Software Engineer Internship
               </h3>
               <h4 className="font-medium 2xl:text-xl">

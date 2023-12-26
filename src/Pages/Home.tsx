@@ -12,15 +12,15 @@ const Home = () => {
     <>
       <BrowserTitle name="Home" />
       <section className="bg-blue-900 h-screen w-full text-center flex items-center justify-center">
-        <div className="flex flex-col items-center">
-          <motion.h1
-            initial={{ translateY: 50, opacity: 0 }}
-            whileInView={{ translateY: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="text-amber-400 text-6xl md:text-8xl 2xl:text-9xl mb-4 font-bold">
+        <motion.div
+          initial={{ translateY: 100, opacity: 0 }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: true }}
+          className="flex flex-col items-center">
+          <h1 className="text-amber-400 text-6xl md:text-8xl 2xl:text-9xl mb-4 font-bold">
             Hi, I am Diomar
-          </motion.h1>
+          </h1>
 
           <p className="text-white text-2xl 2xl:text-5xl w-3/4">
             An aspiring IT professional with a passion of learning and creating
@@ -40,7 +40,7 @@ const Home = () => {
               <FontAwesomeIcon icon={faGithub} />
             </CustomLink>
           </div>
-        </div>
+        </motion.div>
       </section>
       <About />
       <Techstacks />
@@ -52,10 +52,6 @@ export default Home;
 function CustomLink({ href, children, props, target }: any) {
   return (
     <motion.a
-      initial={{ translateX: 100, opacity: 0 }}
-      whileInView={{ translateX: 0, opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      viewport={{ once: true }}
       whileHover={{ scale: 1.2, transition: 1 }}
       {...props}
       href={href}
