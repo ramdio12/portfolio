@@ -10,7 +10,10 @@ const Projects = () => {
         <h1 className="text-6xl 2xl:text-8xl mb-4 mt-12 text-headingColor">
           My Projects
         </h1>
-        <p className="text-2xl 2xl:text-4xl ">These are my current Projects</p>
+        <p className="text-2xl 2xl:text-4xl ">
+          These are my current projects. This is where I put my creativity and
+          problem solving skills to use.
+        </p>
       </div>
       <div className="flex flex-wrap mt-4 mb-10 items-center justify-center">
         {projects.map((project) => (
