@@ -29,14 +29,18 @@ const Home = () => {
 
           <div className="text-white flex gap-x-6 mt-4">
             <CustomLink
+              title="Chat me through linkedin"
               href="https://www.linkedin.com/in/i-am-diomar"
               target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </CustomLink>
-            <CustomLink href="/contact">
+            <CustomLink title="Contact Me" href="/contact">
               <FontAwesomeIcon icon={faEnvelope} />
             </CustomLink>
-            <CustomLink target="_blank" href="https://github.com/ramdio12">
+            <CustomLink
+              title="Check my projects and activities"
+              target="_blank"
+              href="https://github.com/ramdio12">
               <FontAwesomeIcon icon={faGithub} />
             </CustomLink>
           </div>
@@ -49,11 +53,12 @@ const Home = () => {
 };
 
 export default Home;
-function CustomLink({ href, children, props, target }: any) {
+function CustomLink({ href, children, props, target, title }: any) {
   return (
     <motion.a
       whileHover={{ scale: 1.2, transition: 1 }}
       {...props}
+      title={title}
       href={href}
       target={target}
       className="text-5xl 2xl:text-6xl">
