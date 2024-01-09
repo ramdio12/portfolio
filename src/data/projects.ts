@@ -1,7 +1,7 @@
 import project_1 from "../assets/img/project_website_clone_project.png";
 import project_2 from "../assets/img/project_number_guessing_game.jpg";
 import project_3 from "../assets/img/cookbook2.jpg";
-import project_4 from "../assets/img/foodiebruv2_1280x720.png";
+import project_4 from "../assets/img/bakery_website.jpg";
 
 
 export const projects = [
@@ -11,7 +11,7 @@ export const projects = [
         "subname": "A Front-end only Website Clone",
         "img": project_1,
         "tech": "React,Typescript,CSS",
-        "description": "This is a clone from a website. Made with several functional components with the help of react and typescript.",
+        "description": "This is a clone from a company's website. Made with several functional components with the help of react and typescript.",
         "note": "Some of the contents were changed and removed.",
         "github": "https://github.com/ramdio12/website_clone",
         "demo": "https://websiteclone.vercel.app/"
@@ -41,13 +41,13 @@ export const projects = [
     }
     , {
         "id": 4,
-        "name": "FoodieBruv",
-        "subname": "Landing Page Front End with react-scroll",
+        "name": "Bakery Website concept",
+        "subname": "A Bakery Website UI template to React code",
         "img": project_4,
-        "tech": "React JS,Tailwind CSS",
-        "description": "A front end landing page for a restaurant website.It does not only display food menus, but also the contact info of the resto as well. A visitor can navigate from top to bottom with navbar menus or the scroll to top button when going to the home or hero section.",
-        "note": " You can freely browse on my website, just click the demo",
-        "github": "https://github.com/ramdio12/restaurant_website",
-        "demo": "https://foodiebruv.vercel.app/"
+        "tech": "React Typescript,CSS",
+        "description": "To further test my skills in Front end web development, I check some sites that has html css UI templates and I choose this one, A bakery website made from nicepage desktop application and published on nicepage.com website. From a UI template to React Code.",
+        "note": "You can navigate the page by scrolling from top to bottom and vice-versa.",
+        "github": "https://github.com/ramdio12/bakery_website",
+        "demo": "https://ramdiobakery.vercel.app/"
     }
 ]
