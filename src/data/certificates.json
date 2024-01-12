@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Technical Support Fundmentals by Coursera",
+    "link": "https://coursera.org/verify/62XQKSY7KYRH",
+    "recieved": "DECEMBER 2022",
+    "img": "../../img/coursera.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "PyTeal Developer Certificate",
+    "link": "https://drive.google.com/file/d/1wU4n043KxMOyOvHySecm09CSIbGYlP8v/view?usp=drive_link",
+    "recieved": "AUGUST 2023",
+    "img": "../../img/Diomar.png"
+  }
+]

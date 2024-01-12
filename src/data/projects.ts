@@ -1,7 +1,7 @@
 import project_1 from "../assets/img/project_website_clone_project.png";
 import project_2 from "../assets/img/project_number_guessing_game.jpg";
 import project_3 from "../assets/img/cookbook2.jpg";
-import project_4 from "../assets/img/bakery_website.jpg";
+import project_4 from "../assets/img/bakery_website2 (1).jpg";
 
 
 export const projects = [
@@ -11,10 +11,11 @@ export const projects = [
         "subname": "A Front-end only Website Clone",
         "img": project_1,
         "tech": "React,Typescript,CSS",
-        "description": "This is a clone from a company's website. Made with several functional components with the help of react and typescript.",
+        "description": "This is  from a company's website. Made with several functional components with the help of react and typescript. Challenging myself to clone a website on a front end based only.",
         "note": "Some of the contents were changed and removed.",
         "github": "https://github.com/ramdio12/website_clone",
-        "demo": "https://websiteclone.vercel.app/"
+        "demo": "https://websiteclone.vercel.app/",
+        "based": "https://learn.fligno.com/"
     }, {
         "id": 2,
         "name": "AlgoNum Guessing Game",

@@ -11,6 +11,7 @@ const TechStack = ({ name, img }: iconProps) => {
       initial={{ opacity: 0, scale: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
+      whileHover={{ scale: 1.1 }}
       viewport={{ once: true }}
       className="w-36 h-36 text-center">
       <img className="w-full h-full" src={img} alt={name} />

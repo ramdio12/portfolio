@@ -16,6 +16,7 @@ const Project = () => {
     demo,
     video_demo,
     backend,
+    based,
   } = project;
 
   return (
@@ -72,6 +73,14 @@ const Project = () => {
               target="_blank"
               className=" bg-indigo-700 text-white text-lg px-4 py-1 rounded-md">
               Github for the smart contract
+            </a>
+          )}
+          {based && (
+            <a
+              href={based}
+              target="_blank"
+              className=" bg-indigo-700 text-white text-lg px-4 py-1 rounded-md">
+              Original Website
             </a>
           )}
         </div>

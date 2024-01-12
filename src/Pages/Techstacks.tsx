@@ -10,11 +10,11 @@ const Techstacks = () => {
           Skills
         </h2>
         <p className="text-xl 2xl:text-2xl">
-          These are the current teckstacks that I am working and learning
+          These are the current tools that I am working and learning
         </p>
       </div>
 
-      <div className="flex w-full justify-center gap-10 mb-12 flex-wrap">
+      <div className="flex w-4/5 justify-center gap-14 mb-12 flex-wrap">
         {techstacks.map((techstack) => (
           <TechStack key={techstack.id} {...techstack} />
         ))}

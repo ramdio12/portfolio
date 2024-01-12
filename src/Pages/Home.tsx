@@ -6,6 +6,8 @@ import Techstacks from "./Techstacks";
 import { motion } from "framer-motion";
 import About from "./About";
 import BrowserTitle from "../Components/BrowserTitle";
+import Certificates from "./Certificates";
+import ScrollToTop from "../Components/ScrollToTop";
 
 const Home = () => {
   return (
@@ -48,6 +50,8 @@ const Home = () => {
       </section>
       <About />
       <Techstacks />
+      <Certificates />
+      <ScrollToTop />
     </>
   );
 };
