@@ -36,17 +36,17 @@ export const projects = [
         "img": project_3,
         "tech": "React Typescript,Tailwind CSS,PHP,MySql",
         "description": "This web app I created are for the food enthusiasts or people who wanted to share their recipes online and also for those who wanted to learn how to cook. I think the distinction of this web app from the other recipe website is that it gives everyone an opportunity to share or learn about making dishes (exchanging ideas in other terms ) . Aside from creating recipes, the users can also  download or export the other user's recipes: from web to PDF.",
-        "note": " You need to create an account first and log in before entering the main page. Only delete function is unavailable for now so I replace it with a function where a user can download or save a recipe in PDF. You can also use this sample account for demo: username - david | password - Power-123",
+        "note": " You need to create an account first and log in before entering the main page. Only delete function is unavailable for now so I replace it with a function where a user can download or save a recipe in PDF. You can also use this sample account for demo: username - gon | password - Power-123",
         "github": "https://github.com/ramdio12/cookbook",
         "demo": "https://mycookbook.vercel.app/"
     }
     , {
         "id": 4,
         "name": "Bakery Website concept",
-        "subname": "A Bakery Website UI template to React code",
+        "subname": "A Bakery mockup design template to a responsive website",
         "img": project_4,
         "tech": "React Typescript,CSS",
-        "description": "To further test my skills in Front end web development, I check some sites that has html css UI templates and I choose this one, A bakery website made from nicepage desktop application and published on nicepage.com website. From a UI template to React Code.",
+        "description": "To further test my skills in Front end web development, I check some sites that has html css UI templates and I choose this one, A bakery website made from nicepage desktop application and published on nicepage.com website. Transforming a mockup design to a responsive website.",
         "note": "You can navigate the page by scrolling from top to bottom and vice-versa.",
         "github": "https://github.com/ramdio12/bakery_website",
         "demo": "https://ramdiobakery.vercel.app/"
