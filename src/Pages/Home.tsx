@@ -8,25 +8,27 @@ import About from "./About";
 import BrowserTitle from "../Components/BrowserTitle";
 import Certificates from "./Certificates";
 import ScrollToTop from "../Components/ScrollToTop";
+import intropic from "../assets/img/avataaars.png";
 
 const Home = () => {
   return (
     <>
       <BrowserTitle name="Home" />
-      <section className="bg-blue-900 h-screen w-full text-center flex items-center justify-center">
+      <section className="bg-blue-900 min-h-screen w-full text-center md:flex items-center md:px-20">
         <motion.div
           initial={{ translateY: 100, opacity: 0 }}
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="flex flex-col items-center">
-          <h1 className="text-amber-400 text-6xl md:text-8xl 2xl:text-9xl mb-4 font-bold">
-            Hi, I am Diomar
+          className="flex flex-col justify-start  md:basis-1/2 pt-60 md:pt-0 items-center xs:items-start ">
+          <h1 className="text-amber-400 text-5xl md:text-7xl 2xl:text-8xl mb-4 font-bold">
+            Hi , I am Diomar
           </h1>
 
-          <p className="text-white text-2xl 2xl:text-5xl w-3/4">
+          <p className="text-white text-xl md:text-2xl 2xl:text-4xl ">
             An aspiring IT professional with a passion of learning and creating
-            websites.
+            websites. Explore my projects, showcasing my skills in web
+            development.
           </p>
 
           <div className="text-white flex gap-x-6 mt-4">
@@ -47,6 +49,17 @@ const Home = () => {
             </CustomLink>
           </div>
         </motion.div>
+        <div className=" hidden md:flex  items-center justify-center md:basis-1/2 overflow-hidden">
+          <motion.img
+            initial={{ rotate: 360, opacity: 0, translateX: 200 }}
+            whileInView={{ rotate: 0, opacity: 1, translateX: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+            src={intropic}
+            alt="introduction_picture"
+            className=" w-96"
+          />
+        </div>
       </section>
       <About />
       <Techstacks />
@@ -57,6 +70,7 @@ const Home = () => {
 };
 
 export default Home;
+
 function CustomLink({ href, children, props, target, title }: any) {
   return (
     <motion.a

@@ -23,7 +23,7 @@ function CustomLink({ to, children, props }: any) {
       {...props}
       to={to}
       style={{ color: isActive ? "#facc15" : "" }}
-      className="text-2xl 2xl:text-3xl ">
+      className=" text-2xl md:text-3xl 2xl:text-4xl ">
       {children}
     </Link>
   );
