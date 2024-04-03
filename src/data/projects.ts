@@ -59,6 +59,7 @@ export const projects = [
         "img": project_5,
         "tech": "Laravel and Tailwind CSS",
         "description": "This webapp I created is made with PHP Framework-laravel. Aside from CRUD, this also have an authentication where a person can login and signup with much more secured features. A guest can also see the peoples' recipes, they can search with the help of search bars and they can view and download recipes into pdf.And if they are interested, they are free to join and share theirs too.",
+        "note": "Login or Register first along with your credentials or if you just want to view the recipes is also okay.",
         "github": "https://github.com/ramdio12/larameals",
         "demo": "https://larameals.infinityfreeapp.com/"
     }
