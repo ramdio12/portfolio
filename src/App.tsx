@@ -6,6 +6,7 @@ import Project from "./Pages/Project";
 import Contact from "./Pages/Contact";
 import { HelmetProvider } from "react-helmet-async";
 import Footer from "./Components/Footer";
+import "./App.css";
 
 function App() {
   return (

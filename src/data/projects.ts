@@ -2,6 +2,7 @@ import project_1 from "../assets/img/project_website_clone_project.png";
 import project_2 from "../assets/img/project_number_guessing_game.jpg";
 import project_3 from "../assets/img/cookbook2.jpg";
 import project_4 from "../assets/img/bakery_website2 (1).jpg";
+import project_5 from "../assets/img/larameals.png";
 
 
 export const projects = [
@@ -31,7 +32,7 @@ export const projects = [
     }
     , {
         "id": 3,
-        "name": "CookBook Web Application",
+        "name": "CookBook - React WebApp",
         "subname": "Web application with PHP REST API Authentication/CRUD & PDF exporter",
         "img": project_3,
         "tech": "React Typescript,Tailwind CSS,PHP,MySql",
@@ -50,5 +51,15 @@ export const projects = [
         "note": "You can navigate the page by scrolling from top to bottom and vice-versa.",
         "github": "https://github.com/ramdio12/bakery_website",
         "demo": "https://ramdiobakery.vercel.app/"
+    }
+    , {
+        "id": 5,
+        "name": "LaraMeals - A Laravel WebApp",
+        "subname": "A webapp with CRUD and authentication",
+        "img": project_5,
+        "tech": "Laravel and Tailwind CSS",
+        "description": "This webapp I created is made with PHP Framework-laravel. Aside from CRUD, this also have an authentication where a person can login and signup with much more secured features. A guest can also see the peoples' recipes, they can search with the help of search bars and they can view and download recipes into pdf.And if they are interested, they are free to join and share theirs too.",
+        "github": "https://github.com/ramdio12/larameals",
+        "demo": "https://larameals.infinityfreeapp.com/"
     }
 ]
