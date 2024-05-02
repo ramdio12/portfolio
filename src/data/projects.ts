@@ -3,6 +3,7 @@ import project_2 from "../assets/img/project_number_guessing_game.jpg";
 import project_3 from "../assets/img/cookbook2.jpg";
 import project_4 from "../assets/img/bakery_website2 (1).jpg";
 import project_5 from "../assets/img/larameals.png";
+import project_6 from "../assets/img/project_6.png";
 
 
 export const projects = [
@@ -37,7 +38,7 @@ export const projects = [
         "img": project_3,
         "tech": "React Typescript,Tailwind CSS,PHP,MySql",
         "description": "This web app I created are for the food enthusiasts or people who wanted to share their recipes online and also for those who wanted to learn how to cook. I think the distinction of this web app from the other recipe website is that it gives everyone an opportunity to share or learn about making dishes (exchanging ideas in other terms ) . Aside from creating recipes, the users can also  download or export the other user's recipes: from web to PDF.",
-        "note": " You need to create an account first and log in before entering the main page. Only delete function is unavailable for now so I replace it with a function where a user can download or save a recipe in PDF. You can also use this sample account for demo: username - gon | password - Power-123",
+        "note": " You need to create an account first and log in before entering the main page. Only delete function is unavailable for now so I replace it with a function where a user can download or save a recipe in PDF. You can also use this sample account for demo: email - gon@gmail.com | password - Password-123",
         "github": "https://github.com/ramdio12/cookbook",
         "demo": "https://mycookbook.vercel.app/"
     }
@@ -62,5 +63,16 @@ export const projects = [
         "note": "Login or Register first along with your credentials or if you just want to view the recipes is also okay.",
         "github": "https://github.com/ramdio12/larameals",
         "demo": "https://larameals.infinityfreeapp.com/"
+    }
+    , {
+        "id": 6,
+        "name": "Employee Training Management System",
+        "subname": "A webapp system with CRUD and authentication",
+        "img": project_6,
+        "tech": "HTML,CSS,Javascript,PHP,Mysql,Bootstrap 5",
+        "description": "This is a basic webapp system made with vanilla PHP OOP. The purpose of this system is to list all trainings conducted in a company and lists of participants who joined each training.",
+        "note": "You can use the admin account username: jojo	and password: Power-123.",
+        "github": "https://github.com/ramdio12/employee_training_managing_system.git",
+        "demo": "https://emtramasy.infinityfreeapp.com/"
     }
 ]
