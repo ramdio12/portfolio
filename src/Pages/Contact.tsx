@@ -53,10 +53,10 @@ const Contact = () => {
           }
         );
       setMsg("Thank you for sending me a message!");
-      // setTimeout(() => {
-      //   setMsg("");
-      //   window.location.reload();
-      // }, 3000);
+      setTimeout(() => {
+        setMsg("");
+        window.location.reload();
+      }, 3000);
     } else {
       setMsg("Somethings wrong");
     }
