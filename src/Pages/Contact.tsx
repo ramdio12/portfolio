@@ -39,7 +39,7 @@ const Contact = () => {
     if (name !== "" && email !== "" && message !== "") {
       emailjs
         .sendForm(
-          "service_j3nlmho",
+          "service_i8thkdr",
           "template_bzii8rp",
           form?.current,
           "Ck_znxaqbTUhW093x"
@@ -53,10 +53,10 @@ const Contact = () => {
           }
         );
       setMsg("Thank you for sending me a message!");
-      setTimeout(() => {
-        setMsg("");
-        window.location.reload();
-      }, 3000);
+      // setTimeout(() => {
+      //   setMsg("");
+      //   window.location.reload();
+      // }, 3000);
     } else {
       setMsg("Somethings wrong");
     }
