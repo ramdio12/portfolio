@@ -59,12 +59,21 @@ const About = () => {
             </div>
             <div className="flex flex-col items-start mt-4">
               <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor">
-                Software Engineer Internship
+                Software Engineer OnBoarding
               </h3>
               <h4 className="font-medium 2xl:text-xl">
                 Fligno Software Philippines Inc.
               </h4>
               <p className="2xl:text-xl">March 2023 - June 2023</p>
+            </div>
+            <div className="flex flex-col items-start mt-4">
+              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor">
+                Field Service Engineer
+              </h3>
+              <h4 className="font-medium 2xl:text-xl">
+                ES Print Media Inc.
+              </h4>
+              <p className="2xl:text-xl">June 2024 - June 2026</p>
             </div>
           </div>
         </div>
