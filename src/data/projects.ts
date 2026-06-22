@@ -1,9 +1,9 @@
 import project_1 from "../assets/img/project_website_clone_project.png";
 import project_2 from "../assets/img/project_number_guessing_game.jpg";
-import project_3 from "../assets/img/cookbook2.jpg";
+// import project_3 from "../assets/img/cookbook2.jpg";
 import project_4 from "../assets/img/bakery_website2 (1).jpg";
-import project_5 from "../assets/img/larameals.png";
-import project_6 from "../assets/img/project_6.png";
+// import project_5 from "../assets/img/larameals.png";
+// import project_6 from "../assets/img/project_6.png";
 
 
 export const projects = [
