@@ -4,10 +4,9 @@ type iconProps = {
   name: string;
   img: string;
   description: string;
-  title:string;
 };
 
-const Skills = ({ name, img,description }: iconProps) => {
+const Skills = ({ name,img,description }: iconProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0 }}
