@@ -4,11 +4,18 @@ interface CertificateProps {
   name: string;
   link: string;
   recieved: string;
-  img: string;
+  imgs: string;
 }
 
-const CertificateCard = ({ name, link, recieved, img }: CertificateProps) => {
+
+
+const CertificateCard = ({ name, link, recieved, imgs }: CertificateProps) => {
+
+
+
   return (
+
+    
     <motion.div
       initial={{ opacity: 0, scale: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
@@ -18,7 +25,11 @@ const CertificateCard = ({ name, link, recieved, img }: CertificateProps) => {
       className="md:w-3/5 bg-slate-200 m-8 rounded-lg overflow-hidden"
       title={`Received on: ${recieved}`}>
       <a href={link} target="_blank">
-        <img src={img} alt={name} className="w-full" />
+        <img src={imgs} alt={name} className="w-full" key={name}/>
+        <img
+            src={`/src/to/directory/${name}?v=${Date.now()}`}
+            alt=""
+          />
       </a>
 
       <div className="py-2">

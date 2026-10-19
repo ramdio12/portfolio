@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Bachelor of Science in Information Technology",
+    "comed":"University of Science and Technology of Southern Philippines",
+    "date": "June 2016 -September 2020",
+    "description": ""
+  },{
+    "id": 2,
+    "name": "Office Clerk / HR-Talent Management Assistant",
+    "comed":"Del Monte Philippines Inc. - Bugo Cannery",
+    "date": "June 2021 -May 2022",
+    "description": "Assist Talent Management supervisor and manager on training supervisory trainee and regular DMPI employees. Data encoding using MS Excel, handle phone calls and emails,and Setting up Zoom/webinar for meetings and trainings. I also do photo and video documentation either in CDO Cannery and Bukidnon plantation that involves employee trainings"
+  },{
+    "id": 3,
+    "name": "Software Engineer OnBoarding",
+    "comed":"Fligno Software Philippines Inc.",
+    "date": "March 2023 - June 2023",
+    "description": "Successfully completed a 12-week on-site PyTeal Algorand training program. Demonstrated end-to-end decentralized application development skills by creating a functional blockchain game using React JS and Algorand smart contracts, culminating in passing the final assessment to become a Certified PyTeal Blockchain Developer"
+  },{
+    "id": 4,
+    "name": "Field Service Engineer",
+    "comed":"ES Print Media Inc.",
+    "date": "June 2024 - June 2026",
+    "description": "Skilled in installing, calibrating, and troubleshooting large-format industrial printers, laser cutters, and heat press equipment. Experienced in delivering L1–L3 technical support both remotely and onsite across local and out-of-town territories. Train clients through hands-on software usage and basic graphic design instruction in Photoshop and CorelDraw, as well as maintaining office computers and printers"
+  }
+ 
+  
+]

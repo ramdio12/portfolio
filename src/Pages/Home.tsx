@@ -9,8 +9,24 @@ import BrowserTitle from "../Components/BrowserTitle";
 import Certificates from "./Certificates";
 import ScrollToTop from "../Components/ScrollToTop";
 import intropic from "../assets/img/avataaars.png";
+import Projects from "./Projects";
+
+
+
 
 const Home = () => {
+   
+
+  // const scrollTop = () => {
+  //   window.scrollTo({
+  //     top: 4900,
+  //     behavior: "smooth",
+  //   });
+  // };
+
+
+
+  
   return (
     <>
       <BrowserTitle name="Home" />
@@ -26,19 +42,19 @@ const Home = () => {
           </h1>
 
           <p className="text-white text-xl md:text-2xl 2xl:text-4xl ">
-            An aspiring IT professional with a passion of learning and creating
-            websites. Explore my projects, showcasing my skills in web
-            development.
+            An aspiring IT professional with a passion of learning and exploring IT Industry.
           </p>
-
+          
+ <p className="mt-4 text-white text-xl md:text-xl 2xl:text-2xl">You can contact me or visit my profiles below:</p>
           <div className="text-white flex gap-x-6 mt-4">
+           
             <CustomLink
               title="Chat me through linkedin"
               href="https://www.linkedin.com/in/i-am-diomar"
               target="_blank">
               <FontAwesomeIcon icon={faLinkedin} />
             </CustomLink>
-            <CustomLink title="Contact Me" href="/contact">
+            <CustomLink title="Contact Me"  href="/contact">
               <FontAwesomeIcon icon={faEnvelope} />
             </CustomLink>
             <CustomLink
@@ -63,8 +79,10 @@ const Home = () => {
       </section>
       <About />
       <Techstacks />
+      <Projects/>
       <Certificates />
-      <ScrollToTop />
+
+       <ScrollToTop />
     </>
   );
 };
@@ -74,7 +92,7 @@ export default Home;
 function CustomLink({ href, children, props, target, title }: any) {
   return (
     <motion.a
-      whileHover={{ scale: 1.2, transition: 1 }}
+       whileHover={{ scale: 1.2, transition: 1 }}
       {...props}
       title={title}
       href={href}

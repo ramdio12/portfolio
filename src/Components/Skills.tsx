@@ -3,9 +3,11 @@ import { motion } from "framer-motion";
 type iconProps = {
   name: string;
   img: string;
+  description: string;
+  title:string;
 };
 
-const TechStack = ({ name, img }: iconProps) => {
+const Skills = ({ name, img,description }: iconProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0 }}
@@ -13,6 +15,7 @@ const TechStack = ({ name, img }: iconProps) => {
       transition={{ duration: 0.5 }}
       whileHover={{ scale: 1.1 }}
       viewport={{ once: true }}
+      title={description}
       className="w-36 h-36 text-center">
       <img className="w-full h-full" src={img} alt={name} />
       <p className="text-2xl mb-4">{name}</p>
@@ -20,4 +23,4 @@ const TechStack = ({ name, img }: iconProps) => {
   );
 };
 
-export default TechStack;
+export default Skills;

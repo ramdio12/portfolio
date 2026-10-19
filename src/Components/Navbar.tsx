@@ -5,8 +5,6 @@ const Navbar = () => {
     <header className="w-full md:flex bg-blue-900 items-center justify-center fixed top-0 py-6 border-b-red-600 z-10">
       <nav className="font-medium gap-x-9 text-white flex text-2xl mx-auto h-full items-center justify-center">
         <CustomLink to="/">Home</CustomLink>
-        <CustomLink to="/projects">Projects</CustomLink>
-        <CustomLink to="/contact">Contact</CustomLink>
       </nav>
     </header>
   );

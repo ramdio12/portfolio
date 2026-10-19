@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
+import experiences from "../data/experiences.json";
 import profile from "../assets/img/diomar.jpg";
 
 const About = () => {
   return (
     <section
       id="about"
-      className="w-full bg-neutral-300 text-center md:flex  justify-center pt-12 overflow-hidden min-h-screen">
+      className="w-full bg-neutral-300 text-center md:flex  justify-center pt-8 overflow-hidden min-h-screen">
       <div className="basis-1/2  flex items-center justify-center">
         <div className="m-auto w-2/4 py-8">
           <motion.img
@@ -24,58 +25,31 @@ const About = () => {
         whileInView={{ translateX: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="basis-1/2  flex flex-col py-4 ">
-        <h2 className="text-6xl 2xl:text-8xl font-bold text-headingColor ">
-          About Me
+        className="basis-1/2 flex flex-col py-4 ">
+        <h2 className="text-4xl 2xl:text-6xl font-bold text-headingColor ">
+          Education and Experiences
         </h2>
-        <p className="text-lg 2xl:text-2xl md:px-4">
-          I am an IT graduate. I am passionate about improving my coding skills
-          & developing applications & websites. Working for myself to improve my
-          skills. I also love troubleshooting PC as well.
-        </p>
+      
 
-        <div className="mt-6 flex flex-col items-start pl-2">
-          <h3 className="text-4xl 2xl:text-5xl font-bold text-headingColor">
-            Experiences
-          </h3>
-          <div className="flex flex-col items-start">
+        <div className="ml-4 mt-6 md:ml-12 flex flex-col items-start pl-2">
+         
+           {experiences.map((exp:any) => (
+         <div className="flex flex-col items-start">
             <div className="flex flex-col items-start mt-4">
               <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor whitespace-break-spaces">
-                Bachelor of Science in Information Technology
+                {exp.name}
               </h3>
               <h4 className="font-medium 2xl:text-xl whitespace-pre">
-                University of Science and Technology of Southern Philippines
+                {exp.comed}
               </h4>
-              <p className="2xl:text-xl">June 2016 - September 2020</p>
-            </div>
-            <div className="flex flex-col items-start mt-4">
-              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor">
-                Office Clerk
-              </h3>
-              <h4 className=" font-medium 2xl:text-xl">
-                Del Monte Philippines Inc. - Bugo Cannery
-              </h4>
-              <p className="2xl:text-xl">June 2021 - April 2022</p>
-            </div>
-            <div className="flex flex-col items-start mt-4">
-              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor">
-                Software Engineer OnBoarding
-              </h3>
-              <h4 className="font-medium 2xl:text-xl">
-                Fligno Software Philippines Inc.
-              </h4>
-              <p className="2xl:text-xl">March 2023 - June 2023</p>
-            </div>
-            <div className="flex flex-col items-start mt-4">
-              <h3 className="text-xl md:text-2xl 2xl:text-3xl font-bold text-headingColor">
-                Field Service Engineer
-              </h3>
-              <h4 className="font-medium 2xl:text-xl">
-                ES Print Media Inc.
-              </h4>
-              <p className="2xl:text-xl">June 2024 - June 2026</p>
+              <p className="2xl:text-xl">{exp.date}</p>
+              {exp.description?<p className="text-left mr-24 font-medium">• {exp.description}</p>:""}
+              
+           
             </div>
           </div>
+        ))}
+          
         </div>
       </motion.div>
     </section>

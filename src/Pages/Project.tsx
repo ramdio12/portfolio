@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { projects as ProjectItem } from "../data/projects";
 import BrowserTitle from "../Components/BrowserTitle";
+import Navbar from "../Components/Navbar";
 
 const Project = () => {
   const { id }: any = useParams();
@@ -21,6 +22,7 @@ const Project = () => {
 
   return (
     <div className=" mt-28 w-full">
+      <Navbar/>
       <BrowserTitle name={`Project - ${name}`} />
       <div className=" pb-8">
         <div className=" w-1/2 mx-auto">
